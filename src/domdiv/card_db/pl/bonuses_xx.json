@@ -4,18 +4,18 @@
         "Tokens"
     ],
     "include": [
-        "Karta",
-        "Karty",
-        "Akcja",
-        "Akcje",
-        "Zakup",
-        "Zakupy",
-        "Moneta",
         "Monety",
-        "<PZ>",
+        "Moneta",
+        "Karty",
+        "Karta",
+        "Zakupy",
+        "Zakup",
+        "Akcje",
+        "AKcja",
         "Coffer",
         "Coffers",
         "Villager",
-        "Villagers"
+        "Villagers",
+        "<PZ>"
     ]
 }

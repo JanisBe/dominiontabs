@@ -1,0 +1,1 @@
+dominion_dividers --expansions intrigue2* intrigueTest dominion2ndEdition empires seaside base --language it --edition latest --expansion-dividers --exclude-events --exclude-landmarks --tabwidth 5 --back-offset -10 --back-offset-height 5  --special-card-groups --papersize 29.7x21

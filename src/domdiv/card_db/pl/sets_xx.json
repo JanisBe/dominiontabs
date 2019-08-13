@@ -96,7 +96,7 @@
     "intrigue2ndEdition": {
         "set_name": "Intryga",
         "set_text": "Coś się święci. Zarządca uśmiechnął się do ciebie jakby ukrywał tajemnicę, albo jakby myślał, że ty jakąś ukrywasz... Albo jakbyś ty myślał, że on myśli, że ukrywasz jakąś tajemnicę. Jesteś pewien, że w zakurzonych salach zamku zawiązują się kolejne, tajne spiski. Dobrze, że autorem części z nich jesteś ty sam. Przechodzący sługa szepnął: „Jaja już się smażą...” Panicznie przeszukujesz swój notatnik z sekretnymi kodami, by przetłumaczyć zaszyfrowane zdanie, gdy nagle uświadamiasz sobie: „Sługa chciał mi po prostu powiedzieć, że śniadanie zaraz będzie gotowe!” Wspaniale. Wszystko toczy się zgodnie z planem.",
-        "short_name": "Intryga",
+        "short_name": "Intrigue",
         "text_icon": "I2"
     },
     "intrigue2ndEditionUpgrade": {

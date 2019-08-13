@@ -5,7 +5,7 @@ import re
 import sys
 
 import pkg_resources
-
+import time
 from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.lib.styles import getSampleStyleSheet
@@ -473,10 +473,13 @@ class DividerDrawer(object):
     def draw(self, cards=[], options=None):
         if options is not None:
             self.options = options
-
+        timestr = time.strftime("%Y%m%d-%H%M%S")
+        filename =  self.options.outfile
+        if filename[-4:] == ".pdf":
+            filename = filename[:-4]
         self.registerFonts()
         self.canvas = canvas.Canvas(
-            self.options.outfile,
+            filename + timestr + ".pdf",
             pagesize=(self.options.paperwidth, self.options.paperheight),
         )
         self.drawDividers(cards)
@@ -535,6 +538,7 @@ class DividerDrawer(object):
                 )
                 self.font_mapping[fonttype] = ftag
         self.font_mapping["Monospaced"] = "Courier"
+        self.font_mapping["Tresc"] = "Cambria"
 
     def drawTextPages(self, pages, margin=1.0, fontsize=10, leading=10, spacer=0.05):
         s = getSampleStyleSheet()["BodyText"]
@@ -1464,7 +1468,7 @@ class DividerDrawer(object):
             return
 
         s = getSampleStyleSheet()["BodyText"]
-        s.fontName = "Times-Roman"
+        s.fontName = self.font_mapping["Regular"]
         if divider_text == "card" and not card.isExpansion():
             s.alignment = TA_CENTER
         else:

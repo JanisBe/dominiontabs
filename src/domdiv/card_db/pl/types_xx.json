@@ -9,7 +9,7 @@
     "Doom": "Doom",
     "Duration": "Następstwo",
     "Event": "Zdarzenie",
-    "Events": "Zdarzenia",
+    "Events": "	Zdarzenia",
     "Expansion": "Expansion",
     "Fate": "Fate",
     "Gathering": "Gromadzenie",
@@ -33,6 +33,6 @@
     "Trash": "Śmietnisko",
     "Traveller": "Traveller",
     "Treasure": "Skarb",
-    "Victory": "Zwycięstwo",
+    "Victory": "Victory",
     "Zombie": "Zombie"
 }

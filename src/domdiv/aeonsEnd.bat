@@ -1,0 +1,1 @@
+dominion_dividers --expansions aeons --language it --edition latest --papersize 29.7x21 --tabwidth 5 --back-offset -10 --back-offset-height 5  --special-card-groups

@@ -1,0 +1,1 @@
+dominion_dividers --expansions intrigue2* dominion2ndEdition empires seaside --language it --edition latest --expansion-dividers --exclude-events --exclude-landmarks --count  --tabwidth 5 --back-offset 1 --back-offset-height -2
