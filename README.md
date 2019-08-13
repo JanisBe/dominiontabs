@@ -1,3 +1,10 @@
+##Info ode mnie.
+1) œci¹gasz Pythona, przy okazji zaznaczasz zainstalowanie pip 
+2) uruchamiasz z linii komend pip install domdiv
+3) do folderu c:\Users\[TWOJA NAZWA]\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\domdiv\ wrzucasz to co jest w katalog domdiv\ tego repo
+4) s¹ tam 3 pliki .bat jeden do wszystkich polskich Dominionów od GFP, drugi do Aeon's enda, trzeci z pomoc¹ dot prze³¹czników programu. Ja wybra³em kartkê A4, szerokoœæ zak³adki 5cm oraz ustawi³em o ile moja drukarka przesuwa kartkê miêdzy sob¹. Najlepiej robiæ to metod¹ prób i b³êdów zmieniaj¹c wartoœci back-offset oraz back-offset-height.
+
+
 # Dominion Divider Generation
 
 [![Build Status](https://travis-ci.org/sumpfork/dominiontabs.svg?branch=master)](https://travis-ci.org/sumpfork/dominiontabs)
